@@ -72,7 +72,7 @@ void Hyperball::run(){
   Game game;
 
   sf::ContextSettings cs; cs.antialiasingLevel = 8;
-  sf::RenderWindow window(sf::VideoMode(800, 640), "Hyperball", sf::Style::Default, cs);
+  sf::RenderWindow window(sf::VideoMode(580, 800), "Hyperball", sf::Style::Default, cs);
   window.setFramerateLimit(120);
   game.reset();
   Renderer renderer;
